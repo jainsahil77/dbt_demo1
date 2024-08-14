@@ -4,7 +4,7 @@ models:
   - name: user_data
     description: "Userdata from fantasy"
     columns:
-      - name: subscriber_id
+      - name: department_id
         description: "The primary key for this table"
         tests:
           - not_null
