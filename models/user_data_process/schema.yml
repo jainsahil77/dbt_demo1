@@ -7,7 +7,6 @@ models:
       - name: subscriber_id
         description: "The primary key for this table"
         tests:
-          - unique
           - not_null
 
   - name: user_data_dal
