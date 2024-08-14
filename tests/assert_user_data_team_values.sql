@@ -1,6 +1,4 @@
--- Check if the favorite team Id is within the range of expected values
--- Therefore return records where this isn't true to make the test fail
 select
-    favourite_team_id
+    subscriber_id
 from {{ ref('user_data' )}}
-where favourite_team_id > 10
+where subscriber_id > 6
