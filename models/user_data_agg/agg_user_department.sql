@@ -1,6 +1,5 @@
 {{ config(
-    materialized='incremental',
-    unique_key='subscriber_id'
+    materialized='incremental'
 ) }}
 
 select * from {{ ref('user_data_department') }}
