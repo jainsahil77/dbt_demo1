@@ -1,4 +1,4 @@
 select
-    subscriber_id
+    department_id
 from {{ ref('user_data' )}}
-where subscriber_id > 6
+where department_id > 6
